@@ -4,7 +4,7 @@ import async_timeout
 import wavelink
 from discord import ClientException
 from discord.ext import commands
-from wavelink import (LavalinkException, LoadTrackError, SoundCloudTrack,
+from wavelink import (LavalinkException, LoadTrackError,
                       YouTubeMusicTrack, YouTubePlaylist, YouTubeTrack)
 from wavelink.ext import spotify
 from wavelink.ext.spotify import SpotifyTrack
@@ -38,7 +38,6 @@ class Music(commands.Cog):
             "yt": YouTubeTrack,
             "ytpl": YouTubePlaylist,
             "ytmusic": YouTubeMusicTrack,
-            "soundcloud": SoundCloudTrack,
             "spotify": SpotifyTrack,
         }
 
