@@ -1,12 +1,12 @@
 from dataclasses import dataclass
 from typing import Union
 
-from wavelink import (SoundCloudTrack, YouTubeMusicTrack, YouTubePlaylist,
+from wavelink import (YouTubeMusicTrack, YouTubePlaylist,
                       YouTubeTrack)
 from wavelink.ext.spotify import SpotifyTrack
 
 Provider = Union[
-    YouTubeTrack, YouTubePlaylist, YouTubeMusicTrack, SoundCloudTrack, SpotifyTrack
+    YouTubeTrack, YouTubePlaylist, YouTubeMusicTrack, SpotifyTrack
 ]
 
 
